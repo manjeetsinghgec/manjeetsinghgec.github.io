@@ -16,22 +16,13 @@ body{
 .header h1{
 	color:white;
 	font-family:"Times New Roman", Times, serif;
-	font-family:italic;
-  font-size:35px;
- text-shadow: 2px 2px #0000ff;
-}
-.header p{
-	color:white;
-	font-family:"Times New Roman", Times, serif;;
-	font-family:italic;
-  font-size:35px;
- text-shadow: 2px 2px #0000ff;
+    font-size:35px;
+    text-shadow: 2px 2px #0000ff;
 }
 .header h4{
 	color:white;
-	font-family:"Times New Roman", Times, serif;;
-	font-family:italic;
- text-shadow: 2px 2px #0000ff;
+	font-family:"Times New Roman", Times, serif;
+    text-shadow: 2px 2px #0000ff;
 }
 
 }
@@ -298,6 +289,7 @@ img:hover{
 
 .image {
 	margin:auto;
+	width:80%;
 }
 
 
