@@ -5,6 +5,12 @@ body{
 		background-attachment: fixed;
 		background-size: cover;
 	}
+.gec{
+	float:left;
+	margin-top:-1%;
+	height:100px;
+	width:100px;
+}
 .header {
   height:100px;
   width:100%;
@@ -16,11 +22,12 @@ body{
 .header h1{
 	color:white;
 	font-family:"Times New Roman", Times, serif;
-    font-size:35px;
+    font-size:28px;
     text-shadow: 2px 2px #0000ff;
 }
 .header h4{
 	color:white;
+	font-size:15px;
 	font-family:"Times New Roman", Times, serif;
     text-shadow: 2px 2px #0000ff;
 }
@@ -199,14 +206,6 @@ body{
     padding-top:50px;
   }
 
-box img{
-	margin:10px;
-	padding:10px;
-	border: 2px solid #0000ff;
-}
-img:hover{
-  opacity: 0.3;
-}
 
 .box {
   margin:auto;
@@ -278,7 +277,14 @@ img:hover{
 	margin-left:80px;
 }
 
+/**CSS for Mobile view*********************************************************************/
 @media screen and (max-width: 700px) {
+	.gec{
+	float:left;
+	margin-top:-2%;
+	height:100px;
+	width:100px;
+}
   .box {  
   margin:auto;
   width:90%;
