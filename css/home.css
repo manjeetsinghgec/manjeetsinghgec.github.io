@@ -267,10 +267,19 @@ body{
 	background: linear-gradient(to right,#0000ff,white,white,white,white,white,white,white,white,white,white,#0000ff);
 }
 .panel-heading{
-	background: linear-gradient(to right,#0000ff,white,white,white,#0000ff);
+	background: linear-gradient(to right,#0000ff,white,white,white,white,#0000ff);
 	}
-.panel-title{
+.panel-heading h4{
+	color:#0000ff;
+	}
+.panel-title a:link{
 	font-family:"Times New Roman", Times, serif;
+	font-size:15px;
+	text-decoration:none;
+	color:#0000ff;
+}
+.panel-title a:hover{
+	color:green;
 }
 .panel-body{
 	text-align:left;
